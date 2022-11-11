@@ -11,6 +11,7 @@ const btnHold = document.querySelector('.btn--hold')
 const btnNew = document.querySelector('.btn--new')
 const player0El = document.querySelector('.player--0')
 const player1El = document.querySelector('.player--1')
+const jsConfetti = new JSConfetti()
 
 let scores, currentScore, activePlayer, playing;
 
@@ -56,6 +57,7 @@ btnRoll.addEventListener('click', function () {
             // add dice to the current score
             currentScore += dice;
             document.getElementById(`current--${activePlayer}`).textContent = currentScore
+            document.getElementById(`current--${activePlayer}`).textContent = currentScore
         } else { // if it hit 1
             switchPlayer()
         }
@@ -75,6 +77,9 @@ btnHold.addEventListener('click', function () {
             diceEl.classList.add('hidden');
             document.querySelector(`.player--${activePlayer}`).classList.add('player--winner')
             document.querySelector(`.player--${activePlayer}`).classList.remove('player--active')
+            document.querySelector(`#name--${activePlayer}`).textContent = 'Winner!'
+            jsConfetti.addConfetti()
+
         }
         else {
             //if not switch to next player

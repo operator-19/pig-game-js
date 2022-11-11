@@ -16,7 +16,7 @@ body {
     font-weight: 400;
     height: 100vh;
     color: #333;
-    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    background-color: #FFCB77;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,7 @@ main {
     position: relative;
     width: 100rem;
     height: 60rem;
-    background-color: rgba(255, 255, 255, 0.35);
+    /* background-color: rgba(255, 255, 255, 0.35); */
     backdrop-filter: blur(200px);
     filter: blur();
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
@@ -59,7 +59,7 @@ main {
 .score {
     font-size: 8rem;
     font-weight: 300;
-    color: #c7365f;
+    color: #F0F7F4;
     margin-bottom: auto;
 }
 
@@ -80,10 +80,10 @@ main {
 }
 
 .current {
-    background-color: #c7365f;
+    background-color: #17C3B2;
     opacity: 0.8;
     border-radius: 9px;
-    color: #fff;
+    color: #FEF9EF;
     width: 65%;
     padding: 2rem;
     text-align: center;
@@ -94,7 +94,7 @@ main {
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-size: 1.7rem;
-    color: #ddd;
+    color: #227C9D;
 }
 
 .current-score {
@@ -146,6 +146,7 @@ main {
 .btn:active {
     transform: translate(-50%, 3px);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    background-color: #2f2f2f;
 }
 
 .btn:focus {
