@@ -7,7 +7,7 @@ Players can choose to hold to or keep rolling, but will lose their gained score 
 
 DOM manipulating practice using classList and dynamic selection using temlate literals
 
-Play here!
+Play here! https://operator-19.github.io/pig-game-js/
 
 ![pig-game-js](https://user-images.githubusercontent.com/70670914/201309286-eac0ed1f-067d-46cb-bd6e-232a0a0769c5.gif)
 
